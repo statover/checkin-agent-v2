@@ -18,19 +18,22 @@
 
 ## 项目结构
 
+​```
 checkin_agent_v2/
 ├── checkin_agent_v2.py    # 【核心】新版 create_agent 打卡 Agent 主程序
-├── create_agent_demo.py   # create_agent 基础用法演示（工具调用 + 中间件）
-├── checkinrecord.py       # 打卡记录工具函数（添加 / 查询记录）
-├── config.py              # 配置文件，从 .env 读取 API Key
+├── create_agent_demo.py   # create_agent 基础用法演示
+├── checkinrecord.py       # 打卡记录工具函数
+├── config.py              # 配置文件
 ├── tool_demo.py           # @tool 装饰器用法演示
-├── middleware_one.py      # 中间件演示 1：模型 / 工具调用前后钩子
-├── middleware_two.py      # 中间件演示 2：完整日志中间件（LogMiddleware）
-├── pydantic_xuexi.py      # Pydantic 结构化输出学习（with_structured_output）
+├── middleware_one.py      # 中间件演示1
+├── middleware_two.py      # 中间件演示2
+├── pydantic_xuexi.py      # Pydantic 结构化输出学习
 ├── lang_chat.py           # 大模型基础对话演示
 ├── day1_notes.md          # 第一天学习笔记
-├── week1_review.md        # 第一周周复盘（8 个核心问题解答）
+├── week1_review.md        # 第一周周复盘
 ├── .gitignore             # Git 忽略配置
+​```
+
 
 
 ---
