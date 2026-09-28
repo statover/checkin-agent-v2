@@ -1,0 +1,20 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+config.py
+
+checkin.json
+
+*.db
+
+venv/
+env/
+
+*.log
+
+.vscode/
+
+.env
